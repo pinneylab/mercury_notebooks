@@ -9,6 +9,9 @@ This repository provides the notebook-based workflows that accompany Mercury and
 
 If you want the underlying Python package or API documentation, visit the [Mercury repository](https://github.com/pinneylab/mercury).
 
+## 
+Want to work through the examples in the paper? [Look here.](Methods_In_Enzymology/)
+
 ## Start here
 
 Choose the workflow that matches your starting data:
