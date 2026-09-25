@@ -5,8 +5,13 @@ description = ""
 authors = ["Nicholas-Freitas <nicholas.freitas@ucsf.edu>", "duncan-muir <muir.duncan@gmail.com>"]
 readme = "README.md"
 
-include = ["htbam_notebooks/*.ipynb", "example_data/*"]
-exclude = ["*"]
+packages = [
+    { include = "htbam_notebooks" }
+]
+include = [
+    "htbam_notebooks/*.ipynb",
+    "example_data/**/*"
+]
 
 [tool.poetry.dependencies]
 python = ">=3.9, <3.12"
@@ -15,3 +20,4 @@ python = ">=3.9, <3.12"
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
+
